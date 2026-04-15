@@ -1,0 +1,159 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0f172a; /* Dark blue-grey */
+    color: #f8fafc;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 10%;
+    background: rgba(51, 107, 237, 0.9);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #94a3b8;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* Hero Section */
+header {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 10%;
+}
+
+.highlight {
+    color: #38bdf8;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.8rem 2rem;
+    background: #38bdf8;
+    color: #0f172a;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+}
+
+/* Project Grid */
+#projects {
+    padding: 5rem 10%;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.project-card {
+    background: #1e293b;
+    padding: 1.5rem;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.project-img {
+    height: 150px;
+    background: #334155;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+/* Footer/Contact */
+footer {
+    text-align: center;
+    padding: 5rem 10%;
+    background: #020617;
+}
+
+.social-links {
+    margin: 2rem 0;
+}
+
+.social-links a {
+    color: #38bdf8;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.copyright {
+    font-size: 0.8rem;
+    color: #64748b;
+}
+.project-img1 {
+    height: 150px;
+    /* Replace the old background color with this: */
+    background-image: url('callback-hotline-mobile-phone-call-banner-with-place-for-number-call-back-template-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+.project-img2 {
+    height: 150px;
+    /* Replace the old background color with this: */
+    background-image: url('images.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+.project-img3 {
+    height: 150px;
+    /* Replace the old background color with this: */
+    background-image: url('5-best-free-ecommerce-flatform.png');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
